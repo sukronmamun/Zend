@@ -49,7 +49,7 @@
                 <!-- Sidebar header -->
                 
                 <!-- Sidebar navigation -->
-                    <span class="sidebar-toggle xClose"><i class="fa fa-times" aria-hidden="true"></i></span>
+                <span class="sidebar-toggle xClose"><i class="fa fa-times" aria-hidden="true"></i></span>
                 <ul class="nav sidebar-nav">
                     <li>
                         <a href="#Ar-ti">
@@ -129,9 +129,10 @@
             </aside>
             <div id="fullpage" class="dragdealer">
                 <div class="section " id="section0">
-                    <video autoplay loop muted id="myVideo" poster="images/Home_Fallback_01.jpg">
+                    <video data-autoplay loop="true" muted id="myVideo" poster="images/Home_Fallback_01.jpg">
                         <source src="imgs/Home18.mp4" type="video/mp4">
                     </video>
+
                     <div class="layer">
                         <div class="logo-home">
                             <span id="home-head">B</span>

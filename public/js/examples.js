@@ -11,8 +11,9 @@ $(document).ready(function() {
 			navigation:true,
 			slidesNavigation: true,
 			continuousVertical: true,
-			afterRender: function(){
-				//playing the video
+			
+            afterRender: function(){
+    			$('video').get(0).play();
 			}
 
 		});
